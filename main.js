@@ -1,1 +1,2 @@
-import '/assets/style.sass'
+import './assets/style.sass'
+import 'css-resetter'
