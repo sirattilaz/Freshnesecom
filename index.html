@@ -7,7 +7,42 @@
     <title>Freshnesecom</title>
   </head>
   <body>
-    <div class="container"></div>
+    <header class="container header">
+      <div class="header-top">
+        <ul class="header-top__contacts">
+          <li class="header-top__item"><a href="" class="link">Chat with us</a></li>
+          <li class="header-top__item">+420 336 775 664</li>
+          <li class="header-top__item">info@freshnesecom.com</li>
+        </ul>
+        <div class="header-top__links">
+          <a href="" class="header-top__item link">Blog</a>
+          <a href="" class="header-top__item link">About Us</a>
+          <a href="" class="header-top__item link">Careers</a>
+        </div>
+      </div>
+      <hr class="header__line">
+      <div class="header-bottom">
+        <div class="header-bottom__logo">
+          <img src="logo.svg" alt="">
+        </div>
+        <div class="header-bottom__search">
+          <select name="category" class="select header-bottom__category">
+            <option value="allCategory" class="select__item" selected>All categories</option>
+            <option value="category1" class="select__item">Category 1</option>
+            <option value="category2" class="select__item">Category 2</option>
+          </select>
+          <input type="text" class="input header-bottom__input" placeholder="Search Products, categories ...">
+        </div>
+        <div class="header-bottom__icons">
+          <button>
+            <img src="profile.svg" alt="">
+          </button>
+          <button>
+            <img src="busket.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </header>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
